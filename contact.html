@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="AlWebsite.css" type="text/css" />
+        <script src="https://kit.fontawesome.com/6a318ad4b6.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+    <body>
+        <div id="menu">
+            <nav>
+                <ul class="tmenu">
+                    <li class="tmenulist"><a id="home" href="index.html">Home</a></li>
+                    <li class="tmenulist"><a id="resume" href="IliasBonieSummerResume2020.pdf" target="_blank"><i class="fas fa-download"></i>&ensp; Resume</a></li>
+                    <li class="tmenulist"><a id="project" href="project.html">Project</a></li>
+                    <li class="tmenulist"><a id="contact" class="selected" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <h1 id="contactus">
+            Contact Us!
+        </h1>
+        <div id="contactcontainer">
+            <div id="left">
+                <h3 id="sendmessage">Send your Message!</h3>
+                <form>
+                    <table id="table">
+                        <tr>
+                            <td id="firstlast">
+                                <label for="fullname"></label>
+                                <input type="text" placeholder="Name" id="name" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="email"></label>
+                                <input type="email" placeholder="E-Mail" id="email" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="message"></label>
+                                <textarea style="resize: none;" id="textmessage" placeholder="Message"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div id="submitbox">
+                                    <input type="submit" onclick="alert('Sorry this contact form is currently in progress. Please contact me at iliasbonie24@gmail.com')" id="submit">
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <ul class="bmenu">
+            <li class="bmenulist"><a id="mail" href="mailto:iliasbonie24@gmail.com" title="E-mail">E-Mail &ensp;<i class="far fa-envelope-open"></i></a></li>
+            <li class="bmenulist"><a id="linked" href="https://www.linkedin.com/in/ilias-bonie/" target="_blank" title="LinkedIn">LinkedIn &ensp;<i class="fab fa-linkedin"></i></a></li>
+            <li class="bmenulist"><a id="git" href="https://github.com/iliasbonie?tab=projects" target="_blank" title="Github">Github &ensp;<i class="fab fa-github"></i></a></li>   
+        </ul> 
+    </body>
+</html>
